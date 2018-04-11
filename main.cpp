@@ -104,9 +104,9 @@ void BattleShip::print_grid()
             else if (grid_layout[x][y] == 3)
                 // printing busted computer ship
                 cout << "x";
-            else if (grid_layout[x][y] == 11)
-                // computer ship; only for checking if pseudorandom number works or not
-                cout << "$";
+//            else if (grid_layout[x][y] == 11)
+//                // computer ship; only for checking if pseudorandom number works or not
+//                cout << "$";
             else
                 cout << " ";
         }
